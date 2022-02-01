@@ -1,0 +1,31 @@
+h2 {
+    font-weight: bold;
+}
+main {
+ text-align: center;
+ align-items: center;
+ margin: auto;
+ max-width: 1200px;
+}
+.main {
+    display: flex;
+    flex: 30vw 30vw 30vw;
+}
+.main div {
+    width: 300px;
+    margin: auto;
+}
+main div img {
+    width: 300px;
+    height: 230px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+main button {
+    width: 129px;
+    height: 42px;   
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: #424242;
+    color: white;
+}
