@@ -4,20 +4,19 @@ h2 {
 main {
  text-align: center;
  align-items: center;
- margin: auto;
  max-width: 1200px;
 }
 .main {
+    margin-top: 30px;
     display: flex;
-    flex: 30vw 30vw 30vw;
 }
 .main div {
-    width: 300px;
+    width: 200px;
     margin: auto;
 }
 main div img {
-    width: 300px;
-    height: 230px;
+    width: 200px;
+    height: 130px;
     border-radius: 15px;
     margin-bottom: 30px;
 }
@@ -28,4 +27,5 @@ main button {
     margin-top: 30px;
     background-color: #424242;
     color: white;
+    margin-bottom: 30px;
 }
