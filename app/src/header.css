@@ -1,18 +1,29 @@
 .main {
+    
     margin: 10px;
 }
+
+h1 {
+    font-size: 30px;
+}
+p {
+    font-size: 18px;
+}
 .header {
+    position: relative;
     display: flex;
-    flex: 50%;
-    justify-content: space-around;
-    padding: 5px;
-    margin: 5px;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.header div {
+    position: relative;
+    margin: 10px;
 }
 
 .header img {
     width: 263px;
     height: 209px;
+    padding-right: 50px;
 }
- p {
-     display: block;
- }
+

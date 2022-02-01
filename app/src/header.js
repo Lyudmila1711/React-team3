@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import Img from './Subaru.jfif'
+import Img from './img/Main.jfif'
 
 
 const HeaderBlock = () => (
