@@ -23,6 +23,7 @@
 .logo-foot{
 	grid-column: 2 / 3;
   	grid-row: 1;
+	justify-self: center;
   
 }
 
@@ -42,6 +43,8 @@
 	font-size: 20px;
 	grid-column: 3 / 3;
   	grid-row: 1;
+	justify-self: end;
+	align-self: center;
 
 	
 }
