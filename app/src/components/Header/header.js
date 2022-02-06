@@ -2,6 +2,8 @@ import React from 'react'
 import NavBar from './Navbar'
 import '../../styles/header.css'
 import Logo from '../../img/logo.jpg'
+import Search from './searchField'
+import {Routes, Route} from 'react-router-dom'
 
 
 
@@ -15,6 +17,10 @@ function Header(){
             <div className='navbar-header'> 
                 <NavBar/>
             </div>
+            <Routes>
+                <Route path='/catalog' element={<Search />}/>
+            </Routes>
+            
         </div>
 
   )

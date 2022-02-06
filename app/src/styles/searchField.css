@@ -1,0 +1,13 @@
+.search{
+    margin-left: 50px;
+    margin-top: 1.2%;
+	display: flex;
+    justify-content: end;
+	align-items: center;
+}
+
+.search input{
+    color: black;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
