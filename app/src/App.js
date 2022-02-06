@@ -1,8 +1,10 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import Footer from './components/Footer/footer'
-import Header from './components/Header/header'
-import Home from './components/MainPage/mainContent'
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
+import MainContent from './components/MainPage/MainContent'
+import Catalog from './components/Catalog/Catalog'
+import Cart from './components/Cart/Cart'
 import './app.css'
 
 function App() {
@@ -13,11 +15,13 @@ function App() {
       </div>
       <div className='content'>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<MainContent/>}/>
+        <Route path='/catalog' element={<Catalog/>} />
+        <Route path='/cart' element={<Cart/>} />
       </Routes>
       </div>
       <div>
-        <Footer/>
+        <Footer className='footer-content'/>
       </div>
     </div>
   );
