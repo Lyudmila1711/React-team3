@@ -11,7 +11,7 @@ function MainContent (){
     <main>
         <div className='heading'>
             <div>
-                <img src={headingImg} alt="image" ></img>
+                <img src={headingImg} alt="baby in play zone" ></img>
             </div>
             <div>
                 <h1>Heading</h1>
@@ -20,17 +20,17 @@ function MainContent (){
         </div>
         <div className='main'>
         <div>
-            <img src={legoDuplo} alt = 'image of lego duplo'></img>
+            <img src={legoDuplo} alt = 'lego duplo'></img>
             <h2>Title 1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>      
         </div>
         <div>
-            <img src={legoIkea} alt = 'image of lego ikea'></img>
+            <img src={legoIkea} alt = 'lego ikea'></img>
             <h2>Title 2</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>      
         </div>
         <div>
-            <img src={legoLgbt} alt = 'image of new lego lgbt'></img>
+            <img src={legoLgbt} alt = 'new lego lgbt'></img>
             <h2>Title 3</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>      
         </div>
