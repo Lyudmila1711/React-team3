@@ -1,5 +1,6 @@
 import React from 'react';
 import CardsCatalog from './CardsCatalog';
+import '../../styles/Catalog.css'
 import {data} from '../../data';
 
 export default function Catalog(){

@@ -5,14 +5,14 @@ import CatalogButton from './CatalogButton';
 
 export default function CardsCatalog({item}) {
     return (
-        <div>
-            <img src={item.image} width='200px' height='250px' />
-            <div>
-                <p className=''>Опис товару... {item.description}</p>
-            </div>
+        <div className='cards-content'>
+            <img className='img-content' src={item.image} width='150px' height='200px' />
             <h3>{item.name}</h3>
-            <div>
-                <p><strong>Ціна: {item.price}{'грн'}</strong></p>
+            <div className='descript-items'>
+                <p>Опис товару... {item.description}</p>
+            </div>
+            <div className='price-container'>
+                <p className='price'><strong>Ціна: {item.price}{' грн'}</strong></p>
             </div>
             <div className='btn-catalog-items'>
                 <CatalogButton/>
