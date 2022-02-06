@@ -1,6 +1,7 @@
-import '../../styles/searchField.css'
+import React from 'react'
+import '../../styles/SearchField.css'
 
-export default function Search() {
+function Search() {
     return (
         <div className="search">
                 <input 
@@ -10,3 +11,5 @@ export default function Search() {
         </div>
     )
 }
+
+export default Search
