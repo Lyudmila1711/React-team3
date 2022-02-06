@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from './Navbar'
 import '../../styles/header.css'
 import Logo from '../../img/logo.jpg'
-import Search from './searchField'
+import Search from './SearchField'
 import {Routes, Route} from 'react-router-dom'
 
 
