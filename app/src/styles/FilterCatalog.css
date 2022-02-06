@@ -1,0 +1,32 @@
+.filter-box {
+    display: flex;
+	height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.filter-select {
+    margin-left: 3rem;
+    margin-top: 30px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-left: 30rem;
+    margin-top: 30px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    background-color: antiquewhite;
+    text-decoration: none;
+    border-color: transparent;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+}
+
