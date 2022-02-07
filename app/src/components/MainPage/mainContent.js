@@ -4,6 +4,7 @@ import legoDuplo from '../../img/lego-duplo.jpeg'
 import legoIkea from '../../img/lego-ikea.jpeg'
 import legoLgbt from '../../img/lego-lgbt.jpeg'
 import headingImg from '../../img/heading img.jfif'
+import ButtonMain from './ButtonMain'
 
 
 function MainContent (){
@@ -35,8 +36,7 @@ function MainContent (){
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>      
         </div>
         </div>
-        <button className='button-view-more'>View more</button>
-
+        <ButtonMain />
     </main>
 
     )
