@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/CardsCatalog.css';
 import CatalogButton from './CatalogButton';
+import CatalogItem from "./CatalogItem";
 
 
 export default function CardsCatalog({item}) {
@@ -15,7 +16,7 @@ export default function CardsCatalog({item}) {
                 <p className='price'><strong>Ціна: {item.price}{' грн'}</strong></p>
             </div>
             <div className='btn-catalog-items'>
-                <CatalogButton/>
+                <CatalogButton item = {item}/>
             </div>
         </div>
     )
