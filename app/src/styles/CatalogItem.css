@@ -1,0 +1,56 @@
+.catalog-items-page {
+ display: flex;
+}
+
+.text-description {
+    display: grid;
+    margin: 53px 15px 10px 20px;
+}
+
+.name-catalog {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+.desript-catalog {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+.count-input {
+    grid-column: 1 / 2;
+    grid-row: 4 / 4;
+}
+
+.select-input {
+    grid-column: 1 / 2;
+    grid-row: 4 / 4;
+}
+
+.select-input-1 {
+    width: 120px;
+    margin-left: 200px;
+}
+
+.price-btn-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-price-catalog {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+.btn-1, .btn-2 {
+    background-color: antiquewhite;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    width: 168px;
+    margin-right: 20px;
+}
+
+.btn-2 {
+    background-color: rgb(238, 187, 120);
+}
