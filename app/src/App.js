@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {useState, useContext} from 'react'
 import {Routes, Route} from 'react-router-dom'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import MainContent from './components/MainPage/MainContent'
 import Catalog from './components/Catalog/Catalog'
 import Cart from './components/Cart/Cart'
+import DataContext from './DataContext'
 import './app.css'
 
 function App() {
   return (
+    //rout
     <div className='main-box'>
       <div>
         <Header/>
