@@ -35,7 +35,7 @@ export default function Catalog(){
             <div className='cards-container'>
                 <div className='cards'>
                     {
-                        data.map(value => <CardsCatalog key={value.id} item={value}/>)
+                        filterChild.map(value => <CardsCatalog key={value.id} item={value}/>)
                     }
                 </div>
             </div>

@@ -24,7 +24,7 @@ function ButtonMain (){
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>      
             </div>
         </div>
-    const buttonName=viewMore?'View Less':'View More'
+    const buttonName = viewMore?'View Less':'View More'
         return (
             <div>
                 {viewMore && moreContent}
