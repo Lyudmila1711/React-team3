@@ -1,4 +1,7 @@
 .search{
+    position: absolute;
+    left: 950px;
+    bottom: 630px;
     margin-left: 14rem;
 	display: flex;
     justify-content: end;

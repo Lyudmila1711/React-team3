@@ -17,10 +17,7 @@ function Header(){
             <div className='navbar-header'> 
                 <NavBar/>
             </div>
-            <Routes>
-                <Route path='/catalog' element={<Search />}/>
-            </Routes>
-            
+            <div className="search"></div>
         </div>
 
   )
