@@ -8,6 +8,7 @@ import CatalogItem from "./components/Catalog/CatalogItem"
 import './app.css'
 
 function App() {
+
   return (
     <div className='main-box'>
       <div>
