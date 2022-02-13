@@ -1,11 +1,10 @@
 .search{
     position: absolute;
-    left: 950px;
-    bottom: 630px;
-    margin-left: 14rem;
-	display: flex;
+    left: 78%;
+    top: 5%;
+    display: flex;
     justify-content: end;
-	align-items: center;
+    align-items: center;
 }
 
 .search input{

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/CardsCatalog.css';
 import CatalogButton from './CatalogButton';
-import CatalogItem from "./CatalogItem";
+
 
 
 export default function CardsCatalog({item}) {

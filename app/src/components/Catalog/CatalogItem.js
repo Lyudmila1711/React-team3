@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useParams } from 'react-router-dom';
-import { data } from '../../data';
+import { toys } from '../../data';
 import '../../styles/CatalogItem.css'
 
 export default function CatalogItem() {
@@ -9,7 +9,7 @@ export default function CatalogItem() {
 
     return (
         <div className='catalog-items'>
-            {data.filter((item) => item.id === id)
+            {toys.filter((item) => item.id === id)
                 .map((item, index) => (
                     <div className='catalog-items-context' key={index}>
                         <div className='catalog-items-page'>

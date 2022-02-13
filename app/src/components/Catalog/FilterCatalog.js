@@ -2,38 +2,22 @@ import React from 'react'
 import FilterBtn from './FilterBtn'
 import "../../styles/FilterCatalog.css"
 
-function Filterbox(){
+function Filterbox({filteredItems}){
     return(
       <div>
-      <div className='filter-box'>
-        <div className='filter-left'>
-            <select className='filter-select'>
-                <option value="filter1" selected disabled hidden>Filter 1</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-            </select>
-            <select className='filter-select' name="filter2" >
-                <option value="" selected disabled hidden>Filter 2</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-            </select>
-            <select className='filter-select' name="filter3" id="cars">
-                <option value="" selected disabled hidden>Filter 3</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-            </select>
+        <div className='filter-box'>
+          <div className='filter-left'>
+          <button className='filter-button1' onClick={()=>filteredItems('children')}>For children</button>
+          <button className='filter-button1' onClick={()=>filteredItems('teenager')} >For teenagers</button>
+          <button className='filter-button1' onClick={()=>filteredItems('adults')}>For adults</button>
+          <button className='filter-button1' onClick={()=>filteredItems( )}>All toys</button>
+          </div>
+          <div className='filter-right'>
+            <FilterBtn/>
+          </div>
+        
         </div>
-        <div className='filter-right'>
-          <FilterBtn />
-        </div>
-      </div>
-    </div>
+      </div>   
     )
   }
 

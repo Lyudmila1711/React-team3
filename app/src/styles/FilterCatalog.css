@@ -1,4 +1,4 @@
-.filter-box {
+/* .filter-box {
     display: flex;
 	height: 100px;
 	border-style: solid;
@@ -16,10 +16,9 @@
     padding: 8px 20px 8px 20px;
     border-radius: 10px;
 }
+*/
 
 .btn {
-    margin-left: 20vw;
-    margin-top: 30px;
     width: 15vw;
     text-align: center;
     text-decoration: none;
@@ -28,5 +27,55 @@
     border-color: transparent;
     padding: 8px 20px 8px 20px;
     border-radius: 10px;
+} 
+
+.filter-box {
+	height: 60px;
+	border-bottom: 1px solid antiquewhite;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.filter-select {
+	padding: 5px 30px;
+	text-align: right;
+	border-radius: 5px;
+	margin-right: 20px;
+	border: 1px solid antiquewhite;
+}
+
+.filter-left {
+	margin-left: 30px;
+}
+.filter-right {
+	margin-right: 30px;
+}
+.filter-button {
+	background-color: white;
+	color: black;
+	border: 2px solid #000000;
+	padding: 10px 30px;
+	border-radius: 7px;
+	transition-duration: 0.4s;
+}
+
+.filter-button:hover {
+	background-color: rgb(238, 172, 85);
+	color: white;
+}
+
+.filter-button1 {
+	background-color: antiquewhite;
+	color: rgb(14, 11, 11);
+	border: 1px solid #000000;
+	padding: 7px 8px;
+	border-radius: 7px;
+	transition-duration: 0.4s;
+	margin-right: 7px;
+}
+
+.filter-button1:hover {
+	background-color: rgb(238, 172, 85);
+	color: black;
 }
 

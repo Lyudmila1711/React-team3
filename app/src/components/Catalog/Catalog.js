@@ -1,16 +1,26 @@
 import React,{useState} from 'react';
 import CardsCatalog from './CardsCatalog';
 import '../../styles/Catalog.css'
-import {data} from '../../data';
+import {toys} from '../../data';
 import Filterbox from './FilterCatalog'
-import Header from '../Header/Header';
 import '../../styles/SearchField.css'
 
 export default function Catalog(){
+    const [data, setData] = useState(toys)
+
     const [value, setValue] = useState(' ')
-    const filteredCountries = data.filter(name => {
+    const filterChild  = toys.filter(name => {
         return name.name.toLowerCase().includes(value.toLowerCase())
     })
+
+    const filteredItems = (value) =>{
+        const result = value === undefined ? toys : (toys.filter((items) => {
+            return items.age === value
+        }))
+        setData(result)
+    }
+
+   
     return (
              <div>
                 <div className="search">
@@ -21,11 +31,11 @@ export default function Catalog(){
                     />
             </div>
       
-            <Filterbox />
+            <Filterbox filteredItems={filteredItems}/>
             <div className='cards-container'>
                 <div className='cards'>
                     {
-                        filteredCountries.map(value => <CardsCatalog key={value.id} item={value}/>)
+                        data.map(value => <CardsCatalog key={value.id} item={value}/>)
                     }
                 </div>
             </div>

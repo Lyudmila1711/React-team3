@@ -1,10 +1,12 @@
-export const data = [
+export const toys = [
         {
         id: '1',
         name: 'Lego Friends',
         price: 1400,
         image: 'https://myplay.ua/tmp/cache/images/92/102/349773-1000x1000-f.jpg',  
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        age: 'children',
+
     },
         {
         id: '2',
@@ -12,6 +14,7 @@ export const data = [
         price: 2400,
         image: 'https://myplay.ua/tmp/cache/images/eb/f49/303063-1000x1000-f.jpg',  
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',  
+        age: 'teenager',
     },
         {
         id: '3',
@@ -19,6 +22,7 @@ export const data = [
         price: 1000,
         image: 'https://myplay.ua/tmp/cache/images/e2/ca2/332001-1000x1000-f.jpg',  
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',  
+        age: 'adults',
     },
     {
         id: '4',
@@ -26,6 +30,7 @@ export const data = [
         price: 3600,
         image: 'https://myplay.ua/tmp/cache/images/af/91f/349797-1000x1000-f.jpg',  
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',  
+        age: 'children',
     },
     ]
 
