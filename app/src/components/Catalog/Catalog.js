@@ -3,7 +3,6 @@ import CardsCatalog from './CardsCatalog';
 import '../../styles/Catalog.css'
 import {data} from '../../data';
 import Filterbox from './FilterCatalog'
-import Header from '../Header/Header';
 import '../../styles/SearchField.css'
 
 export default function Catalog(){
